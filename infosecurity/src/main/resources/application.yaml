@@ -1,0 +1,64 @@
+jwt:
+  secret: VGhpcy1pc0Etc2VjcmV0S2V5LXlvdS1zaG91bGQtdXNlIQ==
+
+server:
+  port: 8988
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/infosec
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    baseline-on-migrate: true
+    validate-on-migrate: true
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    # username: furniturecoup73@gmail.com
+    # password: hwba frfa mmbo bpji
+    username: clinicapayment@gmail.com
+    password: tpwj qnut rehj kfif
+    from: clinicapayment@gmail.com
+
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+
+  # H2 console (опционально, если нужно для разработки)
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+  # Swagger UI (если используется springdoc-openapi)
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
+app:
+  mode: file
+  encryption:
+    key: MySuperSecretKey123
+  filedb:
+    path: ./data/users.enc
