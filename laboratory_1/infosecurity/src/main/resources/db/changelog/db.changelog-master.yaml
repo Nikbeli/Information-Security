@@ -1,0 +1,52 @@
+databaseChangeLog:
+  - changeSet:
+      id: 001-create-users-table
+      author: system
+      changes:
+        - createSequence:
+            sequenceName: seq_user
+            startValue: 1
+        - createTable:
+            tableName: users
+            columns:
+              - column:
+                  name: id
+                  type: UUID
+                  constraints:
+                    primaryKey: true
+              - column:
+                  name: email
+                  type: VARCHAR(255)
+                  constraints:
+                    unique: true
+                    nullable: false
+              - column:
+                  name: password_hash
+                  type: VARCHAR(512)
+              - column:
+                  name: role
+                  type: VARCHAR(50)
+              - column:
+                  name: account_locked
+                  type: BOOLEAN
+              - column:
+                  name: password_restrictins
+                  type: BOOLEAN
+              - column:
+                  name: password_expiration_months
+                  type: INT
+              - column:
+                  name: password_last_changed
+                  type: TIMESTAMP
+              - column:
+                  name: min_password_length
+                  type: INT
+              - column:
+                  name: failed_attempts
+                  type: INT
+              - column:
+                  name: is_admin
+                  type: BOOLEAN
+              - column:
+                  name: email_confirmed
+                  type: BOOLEAN
