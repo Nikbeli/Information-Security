@@ -1,0 +1,38 @@
+=== Результат MD5 ===
+Дата и время: Tue Nov 11 23:52:21 2025
+Источник: 254Q==K9 B5:AB
+Хэш: 271f7bdaeb7c3e1a7415df5529f583d6
+=======================
+
+=== Результат MD5 ===
+Дата и время: Tue Nov 11 23:52:25 2025
+Источник: 254Q==K9 B5:AB
+Хэш: 271f7bdaeb7c3e1a7415df5529f583d6
+=======================
+
+=== Result MD5 ===
+Date and time: Tue Nov 11 23:53:27 2025
+254Q==K9 B5:AB
+hash: 271f7bdaeb7c3e1a7415df5529f583d6
+=======================
+
+=== Result MD5 ===
+Date and time: Tue Nov 11 23:54:13 2025
+hash: 271f7bdaeb7c3e1a7415df5529f583d6
+=======================
+
+=== Result MD5 ===
+Date and time: Wed Nov 12 01:39:41 2025
+hash: 3a50c1151e7e4f1de5a6ecf60feb6b9c
+=======================
+
+=== Result MD5 ===
+Date and time: Wed Nov 12 16:58:32 2025
+hash: 271f7bdaeb7c3e1a7415df5529f583d6
+=======================
+
+=== Result MD5 ===
+Date and time: Wed Nov 12 17:02:07 2025
+hash: 271f7bdaeb7c3e1a7415df5529f583d6
+=======================
+
